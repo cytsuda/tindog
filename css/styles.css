@@ -10,6 +10,8 @@ font-family: 'Ubuntu', sans-serif;
 #title {
     background-color: #ff4c68;
     color: #fff;
+    height: 620px;
+    overflow: hidden;
 }
 
 .container-fluid{
@@ -22,7 +24,10 @@ h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
 }
-
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
 /* NAVBAR */
 .navbar{
     padding: 0 0 4.5rem;
@@ -47,4 +52,43 @@ h1{
 .title-image{
     transform: rotate(25deg);
     width: 60%;
+}
+
+/* FEATURE */
+#features{
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.features-icon {
+    /* font-size: 4rem; */
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.features-card h3{
+    font-size: 1.5rem;
+    color: #67738c;
+}
+
+.features-card p{
+    color: #8f8f8f;
+}
+
+.features-card{
+    padding: 5%;
+    border-radius: 5px;
+}
+
+.features-card:hover{
+    background-color: #fcfcfc;
+}
+.features-card:hover h3 {
+    color: #353b48;
+}
+.features-card:hover .features-icon {
+    color: #ff4c68;
+}
+.features-card:hover p{
+    color: #333;
 }
